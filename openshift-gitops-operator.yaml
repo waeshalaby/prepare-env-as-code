@@ -4,9 +4,9 @@ metadata:
   labels:
     operators.coreos.com/openshift-gitops-operator.openshift-gitops-operator: ""
   name: openshift-gitops-operator
-  namespace: openshift-operators
+  namespace: openshift-gitops-operator
 spec:
-  channel: gitops-1.14
+  channel: latest
   installPlanApproval: Automatic
   name: openshift-gitops-operator
   source: redhat-operators
