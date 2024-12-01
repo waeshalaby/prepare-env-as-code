@@ -17,4 +17,3 @@ metadata:
     pod-security.kubernetes.io/warn: baseline
     pod-security.kubernetes.io/warn-version: v1.24
   name: dev
-  spec: {}
